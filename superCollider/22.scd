@@ -1,8 +1,11 @@
-data src.
-sentemetallic analize from
-from  the dostoevski lib
-topic modelling
+data-src.
+sentimentally analyze
+from  the Dostoevsky lib
+topic modeling
 the prozhito diaries
+
+
+
 
 
 воиска -> {'neutral': 0.9991804361343384, 'skip': 0.003085370408371091}
