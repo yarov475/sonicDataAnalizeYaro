@@ -1,0 +1,3 @@
+файл adsSonicPiMusic.txt содердит код, который в программе Sonic PI генерирует
+трек,keywordMusic.wav который содержиться в папке audio
+sonic pi(https://sonic-pi.net/)

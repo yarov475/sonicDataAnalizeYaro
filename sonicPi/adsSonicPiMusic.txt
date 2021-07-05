@@ -1,0 +1,27 @@
+require 'csv'
+data = CSV.parse(File.read("csv/ads.csv"))
+count = 1788
+notes = scale(:g2, :major, num_octaves: 5)
+separator = 0.2
+# for each line of data, play a drum beat and appropriate pitch
+data.each do |line|
+  puts line
+  puts count
+  sample :drum_bass_soft, amp: 0.1
+  use_synth :hollow
+  # newspaper page turn sample every ten years
+  if count % 10 == 0
+    sample 90, amp: 0.5
+    puts "page-turn"
+  end
+  papers = line[1].to_i
+  if papers != 0
+    # in order to reduce the range of notes from 526 to something closer to 5 octaves (22 notes), divide by 25
+    pitch = (papers / 25)
+    play notes[pitch], noise: 1
+  else
+    play papers
+  end
+  sleep separator
+  count += 1
+end
