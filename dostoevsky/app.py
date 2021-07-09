@@ -3,20 +3,11 @@ from dostoevsky.models import FastTextSocialNetworkModel
 
 tokenizer = RegexTokenizer()
 model = FastTextSocialNetworkModel(tokenizer=tokenizer)
-
-messages = [
-    ' день',
-'воиска',
-'города',
-'воина',
-'дома',
-'наши',
-'дома',
-'день',
-'дома',
-
-]
-
+prepared_data = open('prepared_data.txt', encoding='utf8').read().split('\n')
+print(prepared_data)
+out = open('msg_sent.txt',  'w', encoding='utf8')
+messages = prepared_data
 results = model.predict(messages, k=2)
+
 for message, sentiment in zip(messages, results):
-    print(message, '->', sentiment)
+    print(sentiment, file=out)
