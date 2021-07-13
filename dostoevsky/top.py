@@ -13,3 +13,4 @@ for e in key_sep:
         res.append(g.split('*')[1].replace('"', ''))
 print('from top', res)
 print(res, file=out)
+x =7
