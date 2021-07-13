@@ -1,6 +1,6 @@
 key = []
 key_sep = []
-out = open('prepared_data_for_Dost.py', 'w', encoding='utf8')
+out = open('prepared_data.py', 'w', encoding='utf8')
 res = []
 a = open('topic_data1.txt', encoding='utf8').read().split('\'')
 for i in a:
@@ -11,5 +11,5 @@ for s in key:
 for e in key_sep:
     for g in e:
         res.append(g.split('*')[1].replace('"', ''))
-
+print('from top', res)
 print(res, file=out)
