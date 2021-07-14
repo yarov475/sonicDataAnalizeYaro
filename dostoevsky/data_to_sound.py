@@ -1,35 +1,34 @@
 from app import results
 import csv
 
-heder = ['neutral', 'negative', 'positive']
+header = ['positive', 'negative', 'neutral']
+
+positive = []
 neutral = []
 negative = []
-positive = []
-to_csv = [ neutral, negative, positive]
+
+total_CSV = []
+to_csv = [neutral, negative, positive]
 for dic in results:
-    if 'neutral' not in dic:
-        neutral.append(0)
-    else:
+
+    if 'neutral' in dic:
         neutral.append(dic['neutral'])
-    if 'negative' not in dic:
-        negative.append(0)
-    else:
+
+    if 'negative' in dic:
         negative.append(dic['negative'])
-    if 'positive' not in dic:
-        positive.append(0)
-    else:
+    if 'positive' in dic:
         positive.append(dic['positive'])
+    # else:
+    #     total_CSV.append(0)
+print('lists', positive, negative, neutral)
 
-print(neutral, negative, positive)
-to_csv = [heder, neutral, negative, positive]
-print('to_csv', to_csv)
+with open('../csv/tone_topic_data.csv', 'w', newline='') as csvfile:
+    sonic = csv.writer(csvfile, delimiter=',',
+                       quotechar='|', quoting=csv.QUOTE_MINIMAL)
 
-myFile = open('example2.csv', 'w')
-
-with myFile:
-    writer = csv.writer(myFile)
-    writer.writerows(to_csv)
-
-print("Writing complete")
-
-
+    data = list(zip(positive, negative, neutral))
+    sonic.writerow(header)
+    for row in data:
+        row = list(row)
+        sonic.writerow(row)
+print("Program sonic  completed")

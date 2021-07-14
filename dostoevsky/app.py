@@ -4,10 +4,10 @@ from top import res
 
 tokenizer = RegexTokenizer()
 model = FastTextSocialNetworkModel(tokenizer=tokenizer)
-out = open('msg_sent.txt',  'w', encoding='utf8')
+out = open('msg_sent.txt', 'w', encoding='utf8')
 messages = res
 results = model.predict(messages, k=2)
 
 for message, sentiment in zip(messages, results):
-    print( 'sent', sentiment)
+    print('sent', sentiment)
     print(sentiment, file=out)

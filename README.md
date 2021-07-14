@@ -1,6 +1,6 @@
 it is a part of my research I try to use music as a means of cognition.
  for this purpose I use python analytics libraries, for the sound generation, I use ready-to-use solutions in web 
- 
+ 22 yp nb> top.pu > app.py > sound-to-data.py > csv to sonic pi
  and Sonic PI and SuperCollider
 
 You can hear the mp3 files on 
