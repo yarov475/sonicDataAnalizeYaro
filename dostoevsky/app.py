@@ -1,7 +1,7 @@
 from dostoevsky.tokenization import RegexTokenizer
 from dostoevsky.models import FastTextSocialNetworkModel
 from top import res
-print(res)
+
 tokenizer = RegexTokenizer()
 model = FastTextSocialNetworkModel(tokenizer=tokenizer)
 out = open('msg_sent.txt',  'w', encoding='utf8')
