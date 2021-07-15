@@ -1,15 +1,4 @@
 from miditime.miditime import MIDITime
-from data_to_sound import positive, negative, neutral
-
-
-posInt = []
-negInt = []
-
-for i in positive:
-    posInt.append(int(i))
-
-for b in negative:
-    negInt.append(int(b))
 
 mymidi = MIDITime(120, '22midi.mid')
 
@@ -17,8 +6,8 @@ mymidi = MIDITime(120, '22midi.mid')
 # take only ont
 
 midinotes = [
-    posInt,
-    negInt,
+    [10, 12, 11, 1],
+    [4, 3, 19, 89]
     # At 10 beats (12 seconds from start), C#5 with attack 200, for 4 beats позитивность
 ]
 
