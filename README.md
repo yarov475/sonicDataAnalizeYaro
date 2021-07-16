@@ -6,7 +6,7 @@
  and Sonic PI and SuperCollider`
 
 *You can hear the mp3 files on* 
-![a link](https://soundcloud.com/yarochkin_sonic)
+![A link](https://soundcloud.com/yarochkin_sonic) Y
 ![An image](https://github.com/yarov475/biserGame/blob/master/msc.png)
 later I'll share the links to articles in the journal.
 
