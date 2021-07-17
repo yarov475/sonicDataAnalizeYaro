@@ -6,7 +6,7 @@
  and Sonic PI and SuperCollider`
 
 *You can hear the mp3 files on* 
-![Yaro](https://soundcloud.com/yarochkin_sonic) Y
+https://soundcloud.com/yarochkin_sonic 
 ![An image](https://github.com/yarov475/biserGame/blob/master/msc.png)
 later I'll share the links to articles in the journal.
 
@@ -21,4 +21,4 @@ wish me luck on defending my *Ph.D*
 это герменевтический круг на каждом из ветков мы понимаем что то об исхожном тексте.
 
 В данной работе использлванны метериалы дневников прожитоо.
-мы стараемся веделит в них скрытое эмоциональное послание. Для этого нам полезна музыка.
+мы стараемся веделит в них скрытое эмоциональное послание. Для этого нам полезна музыка
