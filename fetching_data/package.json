@@ -2,7 +2,7 @@
   "name": "fetching_data",
   "version": "1.0.0",
   "description": "",
-  "main": "catch_text.js",
+  "main": "fetch_text.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
