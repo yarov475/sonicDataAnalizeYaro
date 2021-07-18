@@ -6,7 +6,8 @@ from selenium import webdriver
 class AngularSpider(scrapy.Spider):
     name = 'proshito'
     start_urls = [
-        'https://prozhito.org/notes?date=%221941-07-22%22',
+        'https://prozhito.org/notes?date=%221800-01-01%22',
+       # 'https://prozhito.org/notes?date=%221941-07-22%22',
         #'https://prozhito.org/note/169785',
     ]
 
@@ -25,13 +26,14 @@ class AngularSpider(scrapy.Spider):
     def parse(self, response):
         self.driver.get(response.url)
         # Output filename
-        filename = "prozhito.csv"
-        with open(filename, 'a+') as f:
-            writer = csv.writer(f)
+        # filename = "prozhito.csv"
+        # with open(filename) as f:
+            #writer = csv.writer(f)
             # Selector for all the names from the link with class 'ng-binding'
-            names = self.driver.find_elements_by_css_selector("brief_txt")
-            print(self.driver.page_source)
-            for name in names:
-
-                writer.writerow(name)
-        self.log('Saved file %s' % filename)
+        #names = self.driver.find_elements_by_id("root")
+        print(self.driver.page_source)
+        #print(names)
+            # for name in names:
+            #
+            #     writer.writerow(name)
+        #self.log('Saved file %s' % filename)

@@ -22,7 +22,7 @@ options.headless = True
 driver = webdriver.Chrome(options=options)
 driver.get("https://prozhito.org/note/197636")
 
-text = driver.find_element_by_tag_name("mane")
+text = driver.find_element_by_class_name("notes-list__item clearfix scroll_row")
 full = driver.page_source
 print(text)
 driver.quit()
