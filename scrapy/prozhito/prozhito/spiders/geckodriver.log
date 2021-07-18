@@ -27,24 +27,46 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1626603568421	Marionette	WARN	TLS certificate errors will be ignored for this session
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofilelYFbHY"
-1626603810738	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofilelYFbHY\\search.json.mozlz4", (void 0)))
+[Parent 11544, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390155,name=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+w NotFoundError("Could not open the file at C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofilelYFbHY\\search.json.mozlz4", (void 0)))
 1626603817735	Marionette	INFO	Listening on port 56217
 1626603818092	Marionette	WARN	TLS certificate errors will be ignored for this session
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofile6zmCHZ"
-1626604031900	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofile6zmCHZ\\search.json.mozlz4", (void 0)))
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390155,name=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+rofile6zmCHZ\\search.json.mozlz4", (void 0)))
 1626604041672	Marionette	INFO	Listening on port 49377
 1626604042217	Marionette	WARN	TLS certificate errors will be ignored for this session
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofileKkufoa"
-1626604127041	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofileKkufoa\\search.json.mozlz4", (void 0)))
-1626604142293	Marionette	INFO	Listening on port 60113
-1626604142417	Marionette	WARN	TLS certificate errors will be ignored for this session
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+t-search: No addons in our list are installed.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390155,name=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
