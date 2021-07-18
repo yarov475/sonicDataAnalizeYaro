@@ -1,5 +1,7 @@
 const fs = require("fs");
 const fetch = require("node-fetch");
+const fastcsv = require('fast-csv');
+
 
 const date = '1941-07-22'
 
@@ -24,7 +26,12 @@ fetch(`https://prozhito.org/api/notes/search?search_type=diaries&date=${date}`)
 
         }
         return o } )
-.then(str => console.log(str))
+.then(function (data){
+    const ws = fs.createWriteStream("C:\\Users\\yayar\\OneDrive\\Рабочий стол\\b2\\sonicDataAnalizeYaro\\csv\\22Data.csv");
+    fastcsv
+        .write(data, { headers: true })
+        .pipe(ws);
+})
 
 
-console.log('fetch to note obj done')
+console.log('fetch to csv  done')

@@ -2,13 +2,14 @@
   "name": "fetching_data",
   "version": "1.0.0",
   "description": "",
-  "main": "fetch_text.js",
+  "main": "fetchToText.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fast-csv": "^4.3.6",
     "node-fetch": "^2.6.1"
   }
 }
