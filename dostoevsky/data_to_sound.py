@@ -20,7 +20,6 @@ for dic in results:
         positive.append(dic['positive'] * mlt)
     # else:
     #     total_CSV.append(0)
-print('lists', positive, negative, neutral)
 
 with open('../csv/tone_topic_data.csv', 'w', newline='') as csvfile:
     sonic = csv.writer(csvfile, delimiter=',',
@@ -42,4 +41,4 @@ with open('../csv/tone_topic_data_to_sc.csv', 'w', newline='') as csvfile:
         row = list(row)
         sonic.writerow(row)
 
-print("Program sonic  completed")
+print("data_to_sound.py=>tone_topic_data.csv, tone_topic_data_to_sc.csv")

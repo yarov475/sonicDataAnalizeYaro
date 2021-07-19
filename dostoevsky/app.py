@@ -10,5 +10,7 @@ messages = res
 results = model.predict(messages, k=2)
 
 for message, sentiment in zip(messages, results):
-    print('sent', sentiment)
+
     print(sentiment, file=out)
+
+print('app.py=>msg_sent.txt')
