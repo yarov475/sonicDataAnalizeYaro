@@ -1,0 +1,32 @@
+
+
+.dialogs{
+    color: #333333;
+
+    margin: 50px;
+;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+;
+
+}
+
+.dialogITems .dialog{
+
+}
+.dialogITems .active{
+    color: goldenrod;
+}
+
+.messages{
+
+}
+.messages .message{
+
+}
+.dialogs a{
+    color: #333333;
+    text-decoration: none;
+    margin: 0px;
+;
+}

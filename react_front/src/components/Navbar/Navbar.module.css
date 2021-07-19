@@ -1,0 +1,23 @@
+.nav {
+	background-image: -o-linear-gradient(284deg, #b3e5fc 10%, #942dd9 100%);
+	background-image: linear-gradient(166deg, #b3e5fc 10%, #942dd9 100%);
+	color: #ffffff;
+	grid-area: n;
+}
+.item {
+	color: #ffeb3b;
+}
+ .active {
+	color: goldenrod;
+}
+ a{
+	 margin-top: 40px;
+ ;margin: 30px;
+	 text-decoration: none;
+	 color: white;
+ }
+a:hover {
+		cursor: pointer;
+	border-bottom: goldenrod 4px solid;
+	
+}

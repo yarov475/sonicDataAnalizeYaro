@@ -1,0 +1,13 @@
+.userPhoto{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+.selectedPage{
+    font-weight: bold;
+    font-size: 18px;
+    color: goldenrod;
+}
+.pages{
+    cursor: pointer;
+}

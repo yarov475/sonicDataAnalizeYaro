@@ -1,0 +1,22 @@
+.header {
+	grid-area: h;
+		color: #fff;
+	background-color: #80aff3;
+	background-image: -o-linear-gradient(284deg, #80aff3 20%, #942dd9  100%);
+	background-image: linear-gradient(166deg, #80aff3 20%, #942dd9  100%);
+}
+header img {
+	margin-left: 20px;
+	width: 30px;
+}
+.logo {
+	color: green;
+}
+.item {
+	color: #fff9c4;
+	margin-bottom: 200px;
+	margin-left: 20px;
+}
+.loginBlock{
+	float: right;
+}
