@@ -1,0 +1,85 @@
+1626547208808	geckodriver	INFO	Listening on 127.0.0.1:52810
+1626547211676	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofiletyZgzo"
+1626547213831	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofiletyZgzo\\search.json.mozlz4", (void 0)))
+1626547225562	Marionette	INFO	Listening on port 61616
+1626547225763	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390155,name=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofilek1cHc5\\search.json.mozlz4", (void 0)))
+1626547613368	Marionette	INFO	Listening on port 52209
+1626547613746	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1626556275282	Marionette	INFO	Stopped listening on port 52209
+settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofilelkYptf\\search.json.mozlz4", (void 0)))
+1626547817856	Marionette	INFO	Listening on port 54866
+1626547818109	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626556274044	Marionette	INFO	Stopped listening on port 54866
+rionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofilegy2iJQ\\search.json.mozlz4", (void 0)))
+1626548169193	Marionette	INFO	Listening on port 49313
+1626548169534	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626556273151	Marionette	INFO	Stopped listening on port 49313
+ile" "C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofilercu5aS"
+1626548337141	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofilercu5aS\\search.json.mozlz4", (void 0)))
+1626548345528	Marionette	INFO	Listening on port 57582
+1626548345821	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626556271476	Marionette	INFO	Stopped listening on port 57582
+ile" "C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofilelqYP69"
+1626548516691	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofilelqYP69\\search.json.mozlz4", (void 0)))
+1626548526510	Marionette	INFO	Listening on port 51847
+1626548526670	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[Child 11760, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1626556270349	Marionette	INFO	Stopped listening on port 51847
+rofile" "C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofileuFkXVl"
+1626549436207	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yayar\\AppData\\Local\\Temp\\rust_mozprofileuFkXVl\\search.json.mozlz4", (void 0)))
+1626549446228	Marionette	INFO	Listening on port 51334
+1626549446888	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390155,name=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+rofileCl7qa1\\search.json.mozlz4", (void 0)))
+1626549561030	Marionette	INFO	Listening on port 54125
+1626549561451	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626556268722	Marionette	INFO	Stopped listening on port 54125
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
