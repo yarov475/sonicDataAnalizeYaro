@@ -82,11 +82,11 @@ p.stop;
 (
 p=Pbind(\instrument, \sinegrain,
 	\freq, Pseq(~freq1,1),
-	\attack, Pseq(~attack1,),
-	\decay, 2,
-	\pan, Pseq([-1,1],inf),
-	\dur, 0.5,
-	\amp, 0.1
+	\attack, Pseq(~attack1),
+	\decay, Pseq(~freq1,1)+Pseq(~attack1),
+	\pan, Pseq(~levels1)+Pseq(~freq1,1),
+	\dur, Pseq(~levels1)*Pseq(~freq1,1),
+	\amp, Pseq(~levels1)/Pseq(~freq1,1)
 ).play;
 )
 p.stop;
